@@ -1,0 +1,17 @@
+[package]
+name = "rusty_file_sync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.0"
+walkdir = "2.3"
+log = "0.4"
+env_logger = "0.10"
+thiserror = "1.0"
+ctrlc = "3.2"
+sha2 = "0.10"
+digest = "0.10"
+tokio = { version = "1.0", features = ["full"] }
+async-std = "1.10.0"
+
